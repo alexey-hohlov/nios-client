@@ -1,5 +1,14 @@
-import { BurgerIcon, CoatIcon, EyeIcon, NiosIcon, RutubeIcon, TelegramIcon, VKIcon } from '../../assets';
-import SearchBar from '../common/SearchBar/SearchBar';
+import {
+    BurgerIcon,
+    CoatIcon,
+    EyeIcon,
+    NiosIcon,
+    RutubeIcon,
+    TelegramIcon,
+    VKIcon,
+} from '../../assets';
+import { SearchBar } from '../../components';
+
 import styles from './Header.module.scss';
 
 const Header: React.FC = () => {

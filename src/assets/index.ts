@@ -3,6 +3,7 @@
 //common-icons
 export { ReactComponent as GlassIcon } from './icons/common-icons/glass-icon.svg';
 export { ReactComponent as EyeIcon } from './icons/common-icons/eye-icon.svg';
+export { ReactComponent as CopyrightIcon } from './icons/common-icons/copyright-icon.svg';
 
 // header-icons
 export { ReactComponent as BurgerIcon } from './icons/header-icons/burger-icon.svg';
