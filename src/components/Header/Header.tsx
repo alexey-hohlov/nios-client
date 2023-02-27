@@ -13,7 +13,7 @@ import styles from './Header.module.scss';
 
 const Header: React.FC = () => {
     return (
-        <div className={styles.header}>
+        <section className={styles.header}>
             <div className={styles.nav}>
                 <NiosIcon />
                 <BurgerIcon />
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                     <p>Версия для слабовидящих</p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

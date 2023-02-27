@@ -1,4 +1,4 @@
-import { Header, Footer } from '../components';
+import { Header, Footer, Resources } from '../components';
 import styles from './App.module.scss';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
         <div className={styles.app}>
             <Header />
             <div>content</div>
+            <Resources />
             <Footer />
         </div>
     );
